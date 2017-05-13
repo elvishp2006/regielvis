@@ -1,0 +1,104 @@
+$gutter-size : 30px;
+
+@mixin list-col( $quant, $device, $grid: grid( large-x ), $gutter : $gutter-size ) {
+	$container 			: $grid;
+	$container-gutter 	: $quant * $gutter - $gutter;
+
+	@if $grid == content {
+		$container : grid( medium ) + 2;
+
+		.grid-#{$device}-col-#{$quant} .item {
+			width: perc( ( $container - $container-gutter ) / $quant, $container );
+		}
+
+		.grid-#{$device}-col-#{$quant} .item:nth-child(#{$quant}n+1) {
+			@extend %left-clear-#{$device};
+		}
+
+		.grid-#{$device}-col-#{$quant} .item:nth-child(1n+#{$quant + 1}) {
+			@extend %gutter-top-#{$device};
+		}		
+	} @else {
+		.list-#{$device}-col-#{$quant} .item {
+			width: perc( ( $container - $container-gutter ) / $quant, $container );
+		}
+
+		.list-#{$device}-col-#{$quant} .item:nth-child(#{$quant}n+1) {
+			@extend %left-clear-#{$device};
+		}
+
+		.list-#{$device}-col-#{$quant} .item:nth-child(1n+#{$quant + 1}) {
+			@extend %gutter-top-#{$device};
+		}		
+	}
+}
+
+.list,
+.grid {
+	font-size: 0;
+	overflow: hidden;
+
+	img {
+		display: block;
+        height: auto;
+        max-width: 100%;
+	}
+
+	.item {
+		display: inline-block;		
+		vertical-align: top;
+	}
+}
+
+.list .item {
+	margin-left: perc( $gutter-size, grid( large-x ) );
+}
+
+.grid .item {	
+	margin-left: perc( $gutter-size, grid( medium ) + 2 );
+}
+
+@include resp-max( medium ) {
+	%left-clear-small {
+		margin-left: 0;
+	}
+
+	%gutter-top-small {
+		margin-top: $gutter-size - 10px;
+	}
+
+	@for $i from 1 through 3 {
+		@include list-col( $i, small );
+		@include list-col( $i, small, content );
+	}
+}
+
+@include resp-and( medium, large ) {
+	%left-clear-medium {
+		margin-left: 0;
+	}
+
+	%gutter-top-medium {
+		margin-top: $gutter-size - 10px;
+	}
+
+	@for $i from 1 through 6 {
+		@include list-col( $i, medium );
+		@include list-col( $i, medium, content );
+	}
+}
+
+@include resp( large ) {
+	%left-clear-large {
+		margin-left: 0;
+	}
+
+	%gutter-top-large {
+		margin-top: $gutter-size;
+	}
+
+	@for $i from 1 through 12 {
+		@include list-col( $i, large );
+		@include list-col( $i, large, content );
+	}
+}

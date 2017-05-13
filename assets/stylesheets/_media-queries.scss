@@ -1,0 +1,29 @@
+@mixin resp( $size ) {
+	@if $size == large-x {
+		@media ( min-width: grid( large-x ) + grid( small-padding ) * 2 ) {
+			@content;
+		}
+	} @else {
+		@media ( min-width: grid( $size ) ) {
+			@content;
+		}
+	}
+}
+
+@mixin resp-max( $size ) {
+	@if $size == large-x {
+		@media ( max-width: grid( large-x ) - 1px + grid( small-padding ) * 2 ) {
+			@content;
+		}
+	} @else {
+		@media ( max-width: grid( $size ) - 1px ) {
+			@content;
+		}
+	}
+}
+
+@mixin resp-and( $min, $max ) {
+	@media ( min-width: grid( $min ) ) and ( max-width: grid( $max ) - 1px ) {
+		@content;
+	}
+}
