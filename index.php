@@ -27,7 +27,7 @@
 				</h1>
 
 				<div class="missing">
-					Faltam apenas <strong>60 dias</strong>
+					Faltam <strong>60 dias</strong>
 				</div>
 
 				<a data-scroll href="#confirmar" title="Confirmar Presença" class="btn">Confirmar presença</a>
@@ -56,12 +56,12 @@
 			Galeria de Fotos
 		</h2>
 
-		<div id="gallery" class="gallery list list-small-col-2 list-medium-col-4 list-large-col-4">		
-            <?php for( $i = 1; $i <= 12; $i++ ) { ?>
-            <a href="assets/images/gallery/<?php echo $i ?>.jpg" title="" class="item">
-                <img src="assets/images/gallery/t<?php echo $i ?>.png" alt="">					
-            </a>
-            <?php }; ?>
+		<div id="gallery" class="gallery list list-small-col-2 list-medium-col-4 list-large-col-4">
+			<?php for( $i = 1; $i <= 12; $i++ ) : ?>
+			<a href="assets/images/gallery/<?php echo $i ?>.jpg" title="" class="item">
+				<img src="assets/images/gallery/t<?php echo $i ?>.png" alt="">
+			</a>
+			<?php endfor; ?>
 		</div>
 	</section>
 
@@ -72,7 +72,7 @@
 			</h2>
 		</header>
 
-        <?php for( $i = 0; $i < 13; $i++ ) { ?>
+		<?php for ( $i = 0; $i < 13; $i++ ) : ?>
 		<div class="godparents">
 			<figure class="thumb">
 				<img src="http://placehold.it/130x80" alt="">
@@ -86,7 +86,7 @@
 				Lorem ipsum dolor.
 			</h3>
 		</div>
-        <?php }; ?>
+		<?php endfor; ?>
 	</section>
 
 	<div class="section container section-box">
@@ -96,7 +96,7 @@
 			</h2>
 
 			<div class="list-stores">
-				<a href="" title="" class="store">
+				<a href="https://www.querodecasamento.com.br/lista-de-casamento/regiane-elvis" title="Lista Magazine Luiza" class="store">
 					<figure class="thumb">
 						<img src="assets/images/magazine-luiza.png" alt="Magazine Luiza Loja Virtual">
 					</figure>
@@ -112,13 +112,13 @@
 					</figure>
 
 					<div>
-						Ir para loja virtual
+						Endereço da loja física
 					</div>
 
-                    <div class="info">
-                        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Autem, voluptate!
-                    </div>
-				</a>				
+					<div class="info">
+						R. Israel Pinheiro, 2824 - Centro, Gov. Valadares - MG, 35010-130
+					</div>
+				</a>
 			</div>
 		</section>
 
@@ -127,9 +127,9 @@
 				Confirmar Presença
 			</h2>
 
-            <div class="text">
-                Lorem ipsum dolor sit amet.
-            </div>
+			<div class="text">
+				Lorem ipsum dolor sit amet.
+			</div>
 
 			<form action="">
 				<ul>
@@ -143,51 +143,51 @@
 
 					<li>
 						<input type="submit" value="Confirmar Presença" class="btn">
-					</li>										
+					</li>
 				</ul>
 			</form>
 		</section>
 	</div>
 
-    <section id="local" class="section">
-        <h2 class="section-title">
-            Local da cerimônia
-        </h2>
+	<section id="local" class="section">
+		<h2 class="section-title">
+			Local da cerimônia
+		</h2>
 
-        <div class="map">
-            <div class="container">
-                <div class="info">
-                    <figure class="thumb">
-                        <img src="http://placehold.it/370x130" alt="">
-                    </figure>
+		<div class="map">
+			<div class="container">
+				<div class="info">
+					<figure class="thumb">
+						<img src="http://placehold.it/370x130" alt="">
+					</figure>
 
-                    <div class="excerpt">
-                        <p>
-                            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Totam, maiores.
-                        </p>
+					<div class="excerpt">
+						<p>
+							Lorem ipsum dolor sit amet, consectetur adipisicing elit. Totam, maiores.
+						</p>
 
-                        <p>
-                            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Totam, maiores.
-                        </p>                    
-                    </div>
-                </div>
-            </div>
+						<p>
+							Lorem ipsum dolor sit amet, consectetur adipisicing elit. Totam, maiores.
+						</p>
+					</div>
+				</div>
+			</div>
 
-            <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d30206.665361565098!2d-41.96316815!3d-18.8500843!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1spt-BR!2sbr!4v1494679271351" width="100%" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>
-        </div>
-    </section>    
+			<iframe src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d30206.665361565098!2d-41.96316815!3d-18.8500843!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1spt-BR!2sbr!4v1494679271351" width="100%" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>
+		</div>
+	</section>
 </div>
 
 <script src="jquery.js"></script>
 <script src="smooth-scroll.js"></script>
 <script src="lightgallery.js"></script>
 <script>
-    smoothScroll.init({
-        offset: 80,
-    });
+	smoothScroll.init({
+		offset: 80,
+	});
 
-    $( ".gallery" ).lightGallery(); 
-</script>	
+	$( ".gallery" ).lightGallery();
+</script>
 
 </body>
 </html>
