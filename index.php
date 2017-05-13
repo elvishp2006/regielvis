@@ -96,7 +96,7 @@
 			</h2>
 
 			<div class="list-stores">
-				<a href="https://www.querodecasamento.com.br/lista-de-casamento/regiane-elvis" title="Lista Magazine Luiza" class="store">
+				<a href="https://www.querodecasamento.com.br/lista-de-casamento/regiane-elvis" title="Lista Magazine Luiza" class="store" target="_blank" rel="noopener">
 					<figure class="thumb">
 						<img src="assets/images/magazine-luiza.png" alt="Magazine Luiza Loja Virtual">
 					</figure>
