@@ -158,22 +158,18 @@
 			<div class="container">
 				<div class="info">
 					<figure class="thumb">
-						<img src="http://placehold.it/370x130" alt="">
+						<img src="assets/images/igreja-sao-jose.jpg" alt="">
 					</figure>
 
 					<div class="excerpt">
 						<p>
-							Lorem ipsum dolor sit amet, consectetur adipisicing elit. Totam, maiores.
-						</p>
-
-						<p>
-							Lorem ipsum dolor sit amet, consectetur adipisicing elit. Totam, maiores.
+							Endereço: R. João Lopes da Silva, 82 - Vl Bretas, Gov. Valadares - MG, 35032-210
 						</p>
 					</div>
 				</div>
 			</div>
 
-			<iframe src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d30206.665361565098!2d-41.96316815!3d-18.8500843!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1spt-BR!2sbr!4v1494679271351" width="100%" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>
+			<iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d15101.560626264503!2d-41.963154!3d-18.869765!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0xa52641d262abdfc9!2zSWdyZWphIFPDo28gSm9zw6kgT3BlcsOhcmlv!5e0!3m2!1spt-BR!2sbr!4v1494684196967" width="100%" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>
 		</div>
 	</section>
 </div>
