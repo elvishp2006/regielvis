@@ -37,16 +37,12 @@
 
 	<section class="section container">
 		<h2 class="section-title">
-			Lorem ipsum dolor sit amet.
+			Seja bem vindo!
 		</h2>
 
 		<div class="excerpt">
 			<p>
-				Lorem ipsum dolor sit amet, consectetur adipisicing elit. Officiis expedita iste earum laudantium, harum atque dolorem autem esse dolorum similique aspernatur consequuntur excepturi quasi praesentium reprehenderit cupiditate id necessitatibus, ut.
-			</p>
-
-			<p>
-				Lorem ipsum dolor sit amet, consectetur adipisicing elit. Reiciendis, mollitia!
+				A contagem regressiva começa, o frio na barriga e toda a ansiedade do dia mais esperado de nossas vidas, o dia em que uniremos nossas almas e corpos para sempre, diante de Deus.
 			</p>
 		</div>
 	</section>
@@ -72,21 +68,187 @@
 			</h2>
 		</header>
 
-		<?php for ( $i = 0; $i < 13; $i++ ) : ?>
 		<div class="godparents">
 			<figure class="thumb">
-				<img src="http://placehold.it/130x80" alt="">
+				<img src="assets/images/godparents/accacio.jpg" alt="">
 			</figure>
 
 			<figure class="thumb">
-				<img src="http://placehold.it/130x80" alt="">
+				<img src="assets/images/godparents/natalia.jpg" alt="">
 			</figure>
 
 			<h3 class="names">
-				Lorem ipsum dolor.
+				Accácio e Natália
 			</h3>
 		</div>
-		<?php endfor; ?>
+
+		<div class="godparents">
+			<figure class="thumb">
+				<img src="assets/images/godparents/default.png" alt="">
+			</figure>
+
+			<figure class="thumb">
+				<img src="assets/images/godparents/default.png" alt="">
+			</figure>
+
+			<h3 class="names">
+				Carlos e Sirlene
+			</h3>
+		</div>
+
+		<div class="godparents">
+			<figure class="thumb">
+				<img src="assets/images/godparents/default.png" alt="">
+			</figure>
+
+			<figure class="thumb">
+				<img src="assets/images/godparents/default.png" alt="">
+			</figure>
+
+			<h3 class="names">
+				Diogo e Jeniffer
+			</h3>
+		</div>
+
+		<div class="godparents">
+			<figure class="thumb">
+				<img src="assets/images/godparents/default.png" alt="">
+			</figure>
+
+			<figure class="thumb">
+				<img src="assets/images/godparents/default.png" alt="">
+			</figure>
+
+			<h3 class="names">
+				Douglas e Fabiana
+			</h3>
+		</div>
+
+		<div class="godparents">
+			<figure class="thumb">
+				<img src="assets/images/godparents/default.png" alt="">
+			</figure>
+
+			<figure class="thumb">
+				<img src="assets/images/godparents/default.png" alt="">
+			</figure>
+
+			<h3 class="names">
+				Ednaldo e Ednalva
+			</h3>
+		</div>
+
+		<div class="godparents">
+			<figure class="thumb">
+				<img src="assets/images/godparents/default.png" alt="">
+			</figure>
+
+			<figure class="thumb">
+				<img src="assets/images/godparents/default.png" alt="">
+			</figure>
+
+			<h3 class="names">
+				Erley e Carla
+			</h3>
+		</div>
+
+		<div class="godparents">
+			<figure class="thumb">
+				<img src="assets/images/godparents/default.png" alt="">
+			</figure>
+
+			<figure class="thumb">
+				<img src="assets/images/godparents/default.png" alt="">
+			</figure>
+
+			<h3 class="names">
+				Geraldo e Juliana
+			</h3>
+		</div>
+
+		<div class="godparents">
+			<figure class="thumb">
+				<img src="assets/images/godparents/default.png" alt="">
+			</figure>
+
+			<figure class="thumb">
+				<img src="assets/images/godparents/default.png" alt="">
+			</figure>
+
+			<h3 class="names">
+				Gracione e Debora
+			</h3>
+		</div>
+
+		<div class="godparents">
+			<figure class="thumb">
+				<img src="assets/images/godparents/guilherme.jpg" alt="">
+			</figure>
+
+			<figure class="thumb">
+				<img src="assets/images/godparents/pamela.jpg" alt="">
+			</figure>
+
+			<h3 class="names">
+				Guilherme e Pâmela
+			</h3>
+		</div>
+
+		<div class="godparents">
+			<figure class="thumb">
+				<img src="assets/images/godparents/default.png" alt="">
+			</figure>
+
+			<figure class="thumb">
+				<img src="assets/images/godparents/default.png" alt="">
+			</figure>
+
+			<h3 class="names">
+				Joubert e Silvinha
+			</h3>
+		</div>
+
+		<div class="godparents">
+			<figure class="thumb">
+				<img src="assets/images/godparents/default.png" alt="">
+			</figure>
+
+			<figure class="thumb">
+				<img src="assets/images/godparents/default.png" alt="">
+			</figure>
+
+			<h3 class="names">
+				Kaique e Pricila
+			</h3>
+		</div>
+
+		<div class="godparents">
+			<figure class="thumb">
+				<img src="assets/images/godparents/kayo.jpg" alt="">
+			</figure>
+
+			<figure class="thumb">
+				<img src="assets/images/godparents/default.png" alt="">
+			</figure>
+
+			<h3 class="names">
+				Kayo e Barbara
+			</h3>
+		</div>
+
+		<div class="godparents">
+			<figure class="thumb">
+				<img src="assets/images/godparents/default.png" alt="">
+			</figure>
+
+			<figure class="thumb">
+				<img src="assets/images/godparents/default.png" alt="">
+			</figure>
+
+			<h3 class="names">
+				Nilton e Aneli
+			</h3>
+		</div>
 	</section>
 
 	<div class="section container section-box">
