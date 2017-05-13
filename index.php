@@ -27,7 +27,7 @@
 				</h1>
 
 				<div class="missing">
-					Faltam <strong id="countdown">60 dias</strong>
+					Faltam <strong id="countdown"></strong>
 				</div>
 
 				<a data-scroll href="#confirmar" title="Confirmar Presença" class="btn">Confirmar presença</a>
