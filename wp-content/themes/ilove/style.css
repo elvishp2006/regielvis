@@ -1,0 +1,21 @@
+/*
+Theme Name: Ilove (shared on wplocker.com)
+Theme URI: http://www.plutonthemes.com
+Version: 4.0
+Description: PlutonThemes specializes in designing elegant, clean and beautiful WordPress Themes for both beginners & experts.
+Author: PlutonThemes
+Author URI: http://www.plutonthemes.com
+License: GNU General Public License version 3.0
+License URI: http://www.gnu.org/licenses/gpl-3.0.html
+Tags: white, custom-background, threaded-comments, translation-ready, custom-menu
+Text Domain: ilove
+*/
+
+.wp-caption {text-align: center;}
+.wp-caption-text{text-align: center;}
+.sticky{box-shadow: 0 8px 15px rgba(0, 192, 182, 0.5); border: 2px solid #00C0B6;}
+.bypostauthor{padding: 0px;}
+.gallery-caption{text-align: center;}
+.alignright{text-align: right;}
+.aligncenter{text-align: center;}
+.alignleft{text-align: left;}
