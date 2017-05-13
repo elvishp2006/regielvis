@@ -27,7 +27,7 @@
 				</h1>
 
 				<div class="missing">
-					Faltam <strong>60 dias</strong>
+					Faltam <strong id="countdown">60 dias</strong>
 				</div>
 
 				<a data-scroll href="#confirmar" title="Confirmar Presença" class="btn">Confirmar presença</a>
@@ -106,7 +106,7 @@
 					</div>
 				</a>
 
-				<a href="" title="" class="store">
+				<div class="store">
 					<figure class="thumb">
 						<img src="assets/images/pernambucanas.png" alt="Pernambucanas Loja Fisica">
 					</figure>
@@ -118,7 +118,7 @@
 					<div class="info">
 						R. Israel Pinheiro, 2824 - Centro, Gov. Valadares - MG, 35010-130
 					</div>
-				</a>
+				</div>
 			</div>
 		</section>
 
@@ -177,13 +177,8 @@
 <script src="jquery.js"></script>
 <script src="smooth-scroll.js"></script>
 <script src="lightgallery.js"></script>
-<script>
-	smoothScroll.init({
-		offset: 80,
-	});
-
-	$( ".gallery" ).lightGallery();
-</script>
+<script src="jquery.countdown.min.js"></script>
+<script src="main.js"></script>
 
 </body>
 </html>
