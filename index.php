@@ -131,14 +131,14 @@
 				Lorem ipsum dolor sit amet.
 			</div>
 
-			<form action="">
+			<form id="rsvp" action="">
 				<ul>
 					<li>
-						<input type="text" placeholder="Nome">
+						<input type="text" id="name" placeholder="Nome" required>
 					</li>
 
 					<li>
-						<input type="text" placeholder="Quantidade de pessoas">
+						<input type="text" id="quantity" placeholder="Quantidade de pessoas" required>
 					</li>
 
 					<li>
@@ -178,6 +178,21 @@
 <script src="smooth-scroll.js"></script>
 <script src="lightgallery.js"></script>
 <script src="jquery.countdown.min.js"></script>
+
+<script src="https://www.gstatic.com/firebasejs/3.9.0/firebase.js"></script>
+<script>
+	// Initialize Firebase
+	var config = {
+		apiKey: "AIzaSyC35MWSYb9DMNQPiHGhOtL8HSVEPWFyyq8",
+		authDomain: "regielvis-dbb24.firebaseapp.com",
+		databaseURL: "https://regielvis-dbb24.firebaseio.com",
+		projectId: "regielvis-dbb24",
+		storageBucket: "regielvis-dbb24.appspot.com",
+		messagingSenderId: "1003278733605"
+	};
+	firebase.initializeApp(config);
+</script>
+
 <script src="main.js"></script>
 
 </body>
