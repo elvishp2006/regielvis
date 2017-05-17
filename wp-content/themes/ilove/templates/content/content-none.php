@@ -1,1 +1,0 @@
-<p><?php echo __('Sorry, no posts matched your criteria.','ilove'); ?></p>
