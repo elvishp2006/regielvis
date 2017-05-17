@@ -84,11 +84,11 @@
 
 		<div class="godparents">
 			<figure class="thumb">
-				<img src="assets/images/godparents/default.png" alt="">
+				<img src="assets/images/godparents/carlos.jpg" alt="">
 			</figure>
 
 			<figure class="thumb">
-				<img src="assets/images/godparents/default.png" alt="">
+				<img src="assets/images/godparents/sirlene.jpg" alt="">
 			</figure>
 
 			<h3 class="names">
@@ -98,11 +98,11 @@
 
 		<div class="godparents">
 			<figure class="thumb">
-				<img src="assets/images/godparents/default.png" alt="">
+				<img src="assets/images/godparents/diogo.jpg" alt="">
 			</figure>
 
 			<figure class="thumb">
-				<img src="assets/images/godparents/default.png" alt="">
+				<img src="assets/images/godparents/jeniffer.jpg" alt="">
 			</figure>
 
 			<h3 class="names">
@@ -112,11 +112,11 @@
 
 		<div class="godparents">
 			<figure class="thumb">
-				<img src="assets/images/godparents/default.png" alt="">
+				<img src="assets/images/godparents/douglas.jpg" alt="">
 			</figure>
 
 			<figure class="thumb">
-				<img src="assets/images/godparents/default.png" alt="">
+				<img src="assets/images/godparents/fabiana.jpg" alt="">
 			</figure>
 
 			<h3 class="names">
@@ -126,11 +126,11 @@
 
 		<div class="godparents">
 			<figure class="thumb">
-				<img src="assets/images/godparents/default.png" alt="">
+				<img src="assets/images/godparents/ednaldo.jpg" alt="">
 			</figure>
 
 			<figure class="thumb">
-				<img src="assets/images/godparents/default.png" alt="">
+				<img src="assets/images/godparents/ednalva.jpg" alt="">
 			</figure>
 
 			<h3 class="names">
@@ -140,11 +140,11 @@
 
 		<div class="godparents">
 			<figure class="thumb">
-				<img src="assets/images/godparents/default.png" alt="">
+				<img src="assets/images/godparents/erley.jpg" alt="">
 			</figure>
 
 			<figure class="thumb">
-				<img src="assets/images/godparents/default.png" alt="">
+				<img src="assets/images/godparents/carla.jpg" alt="">
 			</figure>
 
 			<h3 class="names">
@@ -154,11 +154,11 @@
 
 		<div class="godparents">
 			<figure class="thumb">
-				<img src="assets/images/godparents/default.png" alt="">
+				<img src="assets/images/godparents/geraldo.jpg" alt="">
 			</figure>
 
 			<figure class="thumb">
-				<img src="assets/images/godparents/default.png" alt="">
+				<img src="assets/images/godparents/juliana.jpg" alt="">
 			</figure>
 
 			<h3 class="names">
@@ -168,11 +168,11 @@
 
 		<div class="godparents">
 			<figure class="thumb">
-				<img src="assets/images/godparents/default.png" alt="">
+				<img src="assets/images/godparents/gracione.jpg" alt="">
 			</figure>
 
 			<figure class="thumb">
-				<img src="assets/images/godparents/default.png" alt="">
+				<img src="assets/images/godparents/debora.jpg" alt="">
 			</figure>
 
 			<h3 class="names">
@@ -196,11 +196,11 @@
 
 		<div class="godparents">
 			<figure class="thumb">
-				<img src="assets/images/godparents/default.png" alt="">
+				<img src="assets/images/godparents/joubert.jpg" alt="">
 			</figure>
 
 			<figure class="thumb">
-				<img src="assets/images/godparents/default.png" alt="">
+				<img src="assets/images/godparents/silvinha.jpg" alt="">
 			</figure>
 
 			<h3 class="names">
@@ -210,11 +210,11 @@
 
 		<div class="godparents">
 			<figure class="thumb">
-				<img src="assets/images/godparents/default.png" alt="">
+				<img src="assets/images/godparents/kaique.jpg" alt="">
 			</figure>
 
 			<figure class="thumb">
-				<img src="assets/images/godparents/default.png" alt="">
+				<img src="assets/images/godparents/pricila.jpg" alt="">
 			</figure>
 
 			<h3 class="names">
@@ -228,7 +228,7 @@
 			</figure>
 
 			<figure class="thumb">
-				<img src="assets/images/godparents/default.png" alt="">
+				<img src="assets/images/godparents/barbara.jpg" alt="">
 			</figure>
 
 			<h3 class="names">
@@ -238,11 +238,11 @@
 
 		<div class="godparents">
 			<figure class="thumb">
-				<img src="assets/images/godparents/default.png" alt="">
+				<img src="assets/images/godparents/nilton.jpg" alt="">
 			</figure>
 
 			<figure class="thumb">
-				<img src="assets/images/godparents/default.png" alt="">
+				<img src="assets/images/godparents/aneli.jpg" alt="">
 			</figure>
 
 			<h3 class="names">
